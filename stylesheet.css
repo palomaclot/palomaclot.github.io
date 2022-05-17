@@ -1,0 +1,213 @@
+/* color */
+
+/* soft pink */
+/* rgb(207, 57, 105); */
+
+/* soft-pink-orange */
+/* rgba(232, 96, 98, 1); */
+
+/* hot pink */
+/* crimson */
+
+/* oragnge */
+/* #f29901 */
+
+/* G.B. */
+/* rgb(255, 0, 43); */
+
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+:focus {
+	outline: 0;
+	/* background-color: #fff; */
+	color: #fff;
+}
+
+::selection {
+    background-color: black;
+    color: crimson;
+}
+
+customhtml > * {
+	position: relative;
+    z-index: 10;
+}
+
+body,
+html {
+	min-height: 100vh;
+	margin: 0px;
+	padding: 0px;
+}
+
+html {
+	position: relative;
+}
+
+body {
+	background: rgb(255, 0, 43);
+	/* color: #000; */
+}
+
+a:hover{
+    background-color: black;
+		color: crimson;
+}
+
+main {
+	background: #fff;
+	clear: both;
+	overflow: hidden;
+	position: absolute;
+	max-width: 100%;
+	width: 100%;
+	z-index: 2;
+
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+
+	-webkit-align-items: center;
+	-moz-align-items: center;
+	-ms-align-items: center;
+	align-items: center;
+}
+
+main > div {
+	-moz-flex: 1 0 auto;
+	-webkit-flex: 1 0 auto;
+	flex: 1 0 auto;
+	width: 100%;
+}
+
+i, em {
+	font-style: italic;
+	/* font-weight: bolder; */
+}
+
+ul, ol {
+	margin: 0;
+	padding: 0 0 0 1em;
+}
+
+/* sup {
+	top: -0.4em;
+	vertical-align: baseline;
+	position: relative;
+}
+
+sub {
+	top: 0.3em;
+	vertical-align: baseline;
+	position: relative;
+} */
+
+img {
+	border: 0;
+	padding: 0;
+	width: 100%;
+}
+
+blockquote {
+	margin: 0;
+	padding: 0 0 0 2em;
+}
+
+hr {
+	background: rgba(127, 127, 127, 0.2);
+	border: 0;
+	height: 0.08em;
+	display: block;
+}
+
+[data-css-presets="true"] main {
+	background-color: transparent /*!content_left*/;
+	/* text-align: left ; */
+	min-height: 100vh /*!content_stretch*/;
+	-webkit-align-items: flex-start /*!vertical_top*/;
+	align-items: flex-start /*!vertical_top*/;
+	left: 0 /*!content_left*/;
+}
+
+[data-css-presets="true"] .content_padded {
+	padding: 1.6rem/*!main_margin*/;
+}
+
+[data-css-presets="true"] .content_width {
+	width: 80% /*!content_left*/;
+}
+
+[data-predefined-style="true"] main {
+	font-size: 1.2rem;
+	font-weight: 400;
+	color: black;
+	/* font-family: "Space Mono", Social; */
+	font-family: monospace;
+	font-style: normal;
+	line-height: 1.3;
+}
+
+[data-predefined-style="true"] main a {
+	/* color: rgb(207, 57, 105); */
+	color: black;
+    text-decoration: underline;
+}
+
+[data-predefined-style="true"] main a:hover {
+    color: crimson;
+    background-color: black;
+}
+
+[data-predefined-style="true"] h1 {
+	font-family: "Courier New", "Courier New", monospace, "Courier New Bold", Social /*!System*/;
+	font-style: normal;
+	font-weight: 700;
+	padding: 0;
+	margin: 0;
+	font-size: 1.5rem;
+	line-height: 1.5;
+	color: black;
+	text-rendering: optimizeLegibility;
+}
+
+[data-predefined-style="true"] h1 a {
+	/* color: crimson; */
+	color: black;
+}
+
+[data-predefined-style="true"] h2 {
+	font-family: "Courier New", "Courier New", monospace, "Courier New Bold Italic", Social /*!System*/;
+	font-style: italic;
+	font-weight: 700;
+	padding: 0;
+	margin: 0;
+	color: black;
+	font-size: 1.3rem;
+	line-height: 1.5;
+	text-rendering: optimizeLegibility;
+}
+
+[data-predefined-style="true"] h2 a {
+	color: black;
+}
+
+[data-predefined-style="true"] courier {
+	display: inline-block;
+	font-size: 1rem;
+	line-height: 1.5;
+	font-family: "Courier New", "Courier New", monospace, "Courier New", Social /*!System*/;
+	font-style: normal;
+	font-weight: 800;
+	color: black;
+}
