@@ -91,13 +91,11 @@ img {
 blockquote {
 	margin: 0;
 	padding: 0 0 0 2em;
-}
-blockquote{
   font-style:italic;
   border-left-color:LightSeaGreen;
   border-left-style:solid;
   border-left-width:3px;
-  padding:1px 10px 1px 10px}
+}
 
 hr {
 	background: rgba(127, 127, 127, 0.2);
