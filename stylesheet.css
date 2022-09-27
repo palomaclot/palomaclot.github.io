@@ -114,7 +114,7 @@ hr {
 }
 
 [data-css-presets="true"] .content_padded {
-	padding: 1.6rem/*!main_margin*/;
+	padding: 2.0rem/*!main_margin*/;
 }
 
 [data-css-presets="true"] .content_width {
@@ -122,11 +122,11 @@ hr {
 }
 
 [data-predefined-style="true"] main {
-	font-size: 1.2rem;
+	font-size: 1.1rem;
 	font-weight: 400;
 	color: black;
 	font-family: monospace;
-	font-style: normal;
+	font-style: "宋体";
 	line-height: 1.3;
 }
 
